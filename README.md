@@ -1,5 +1,5 @@
 # Pudina
-Run Website -> [pudinaprofile.netlify.app](https://pudinaprofile.netlify.app/)
+Run Website -> 
 
 # Documentation📒
 
