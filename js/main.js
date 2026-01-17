@@ -60,7 +60,7 @@
     $('.hero__slider').owlCarousel({
         loop: true,
         dots: true,
-        mouseDrag: false,
+        mouseDrag: true,
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
         items: 1,
@@ -70,7 +70,8 @@
         autoplay: true,
     });
 
-    var dot = $('.hero__slider .owl-dot');
+    // DOT NUMBER CAROUSEL
+    /* var dot = $('.hero__slider .owl-dot');
     dot.each(function () {
         var index = $(this).index() + 1;
         if (index < 10) {
@@ -78,7 +79,7 @@
         } else {
             $(this).html(index);
         }
-    });
+    }); */
 
     /*------------------
         Testimonial Slider
